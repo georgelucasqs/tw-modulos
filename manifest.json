@@ -18,11 +18,11 @@
     {
   "id": "painel_unificado",
   "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/tw_painel_unificado.js",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "match": [
     "https://*.tribalwars.com.br/game.php*",
     "https://*.tribalwars.com.pt/game.php*",
-    "https://*.tribalwars.com.pt/*"
+    "https://*.tribalwars.com.br/*"
   ],
   "enabled": true
 }
