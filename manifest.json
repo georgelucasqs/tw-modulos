@@ -14,6 +14,16 @@
       "version": "1.0.0",
       "match": ["https://*.tribalwars.com.br/game.php*"],
       "enabled": true
-    }
+    },
+    {
+  "id": "painel_unificado",
+  "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/tw_painel_unificado.js",
+  "version": "2.1.0",
+  "match": [
+    "https://*.tribalwars.com.br/game.php*",
+    "https://*.tribalwars.com.pt/game.php*"
+  ],
+  "enabled": true
+}
   ]
 }
