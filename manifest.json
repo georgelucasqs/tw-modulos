@@ -1,5 +1,5 @@
 {
-  "updateIntervalMinutes": 15,
+  "updateIntervalMinutes": 5,
   "modules": [
     {
       "id": "hello",
@@ -9,22 +9,11 @@
       "enabled": true
     },
     {
-      "id": "tw_wa_sid",
-      "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/tw_wa_sid.js",
-      "version": "1.0.0",
+      "id": "painel_unificado",
+      "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/tw_painel_unificado.js",
+      "version": "2.1.0",
       "match": ["https://*.tribalwars.com.br/game.php*"],
       "enabled": true
-    },
-    {
-  "id": "painel_unificado",
-  "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/tw_painel_unificado.js",
-  "version": "2.1.1",
-  "match": [
-    "https://*.tribalwars.com.br/game.php*",
-    "https://*.tribalwars.com.pt/game.php*",
-    "https://*.tribalwars.com.br/*"
-  ],
-  "enabled": true
-}
+    }
   ]
 }
