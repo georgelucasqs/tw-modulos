@@ -7,6 +7,9 @@
 // @run-at       document-start
 // @grant        GM_xmlhttpRequest
 // @grant        GM.xmlHttpRequest
+// @grant        GM_xmlhttpRequest
+// @connect      cdn.jsdelivr.net
+// @connect      us.api-wa.me
 // @connect      *
 // ==/UserScript==
 (function () {
