@@ -1,0 +1,13 @@
+{
+  "version": "2025-09-15T22:00:00Z",
+  "updateIntervalMinutes": 15,
+  "modules": [
+    {
+      "id": "hello",
+      "url": "https://cdn.jsdelivr.net/gh/georgelucasqs/tw-modulos@main/modules/hello.js",
+      "version": "1.0.0",
+      "match": ["https://*.tribalwars.com.br/game.php*"],
+      "enabled": true
+    }
+  ]
+}
