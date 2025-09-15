@@ -21,7 +21,8 @@
   "version": "2.1.0",
   "match": [
     "https://*.tribalwars.com.br/game.php*",
-    "https://*.tribalwars.com.pt/game.php*"
+    "https://*.tribalwars.com.pt/game.php*",
+    "https://*.tribalwars.com.pt/*"
   ],
   "enabled": true
 }
